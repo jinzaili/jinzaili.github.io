@@ -6,7 +6,7 @@
   <link href="https://jinzaili.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinzaili.github.io/"/>
-  <updated>2022-05-01T15:57:59.411Z</updated>
+  <updated>2022-05-01T17:24:42.029Z</updated>
   <id>https://jinzaili.github.io/</id>
   
   <author>
@@ -17,23 +17,233 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>网络安全学习资源</title>
+    <link href="https://jinzaili.github.io/2022/05/02/wang-luo-an-quan-xue-xi-zi-yuan/"/>
+    <id>https://jinzaili.github.io/2022/05/02/wang-luo-an-quan-xue-xi-zi-yuan/</id>
+    <published>2022-05-01T17:17:57.000Z</published>
+    <updated>2022-05-01T17:24:42.029Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;学习路线&quot;&gt;&lt;a href=&quot;#学习路线&quot; class=&quot;headerlink&quot; title=&quot;学习路线&quot;&gt;&lt;/a&gt;学习路线&lt;/h2&gt;&lt;h3 id=&quot;常用资源&quot;&gt;&lt;a href=&quot;#常用资源&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="网络安全" scheme="https://jinzaili.github.io/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/"/>
+    
+    
+    <category term="学习路线" scheme="https://jinzaili.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    
+    <category term="入门指南" scheme="https://jinzaili.github.io/tags/%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>云服务器</title>
+    <link href="https://jinzaili.github.io/2022/05/02/yun-fu-wu-qi/"/>
+    <id>https://jinzaili.github.io/2022/05/02/yun-fu-wu-qi/</id>
+    <published>2022-05-01T17:12:55.000Z</published>
+    <updated>2022-05-01T17:16:34.766Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;全部是内网，需要挂VPN访问&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;服务器信息&quot;&gt;&lt;a href=&quot;#服务器信息&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="教程工具" scheme="https://jinzaili.github.io/categories/%E6%95%99%E7%A8%8B%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="服务器" scheme="https://jinzaili.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
+    
+    <category term="宝塔" scheme="https://jinzaili.github.io/tags/%E5%AE%9D%E5%A1%94/"/>
+    
+    <category term="阿里云" scheme="https://jinzaili.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows10 装机必备</title>
+    <link href="https://jinzaili.github.io/2022/05/02/windows-10-zhuang-ji-bi-bei/"/>
+    <id>https://jinzaili.github.io/2022/05/02/windows-10-zhuang-ji-bi-bei/</id>
+    <published>2022-05-01T17:05:17.000Z</published>
+    <updated>2022-05-01T17:33:49.676Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;hr&gt;
+&lt;p&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="软件工具" scheme="https://jinzaili.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="软件工具" scheme="https://jinzaili.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>思科PT模拟器-交换机路由器配置基本命令</title>
+    <link href="https://jinzaili.github.io/2022/05/02/si-ke-pt-mo-ni-qi-jiao-huan-ji-lu-you-qi-pei-zhi-ji-ben-ming-ling/"/>
+    <id>https://jinzaili.github.io/2022/05/02/si-ke-pt-mo-ni-qi-jiao-huan-ji-lu-you-qi-pei-zhi-ji-ben-ming-ling/</id>
+    <published>2022-05-01T16:52:55.000Z</published>
+    <updated>2022-05-01T16:54:45.944Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;交换机支持的命令：&quot;&gt;&lt;a href=&quot;#交换机支持的命令：&quot; class=&quot;headerlink&quot; title=&quot;交换机支持的命令：&quot;&gt;&lt;/a&gt;交换机支持的命令：&lt;/h2&gt;&lt;h3 id=&quot;交换机基本状态：&quot;&gt;&lt;a href=&quot;#交换机基本状态：&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机网络" scheme="https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/"/>
+    
+    
+    <category term="路由器和交换机" scheme="https://jinzaili.github.io/tags/%E8%B7%AF%E7%94%B1%E5%99%A8%E5%92%8C%E4%BA%A4%E6%8D%A2%E6%9C%BA/"/>
+    
+    <category term="思科" scheme="https://jinzaili.github.io/tags/%E6%80%9D%E7%A7%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>屏幕录制小工具</title>
+    <link href="https://jinzaili.github.io/2022/05/02/ping-mu-lu-zhi-xiao-gong-ju/"/>
+    <id>https://jinzaili.github.io/2022/05/02/ping-mu-lu-zhi-xiao-gong-ju/</id>
+    <published>2022-05-01T16:50:35.000Z</published>
+    <updated>2022-05-01T17:35:29.934Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div class=&quot;start-screen-recording-mid recording-style-black&quot;&gt;&lt;div&gt;&lt;div class=&quot;rec-dot&quot;&gt;&lt;/div&gt;&lt;span&gt;开始录制&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;script</summary>
+        
+      
+    
+    
+    
+    <category term="软件测试" scheme="https://jinzaili.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="录屏" scheme="https://jinzaili.github.io/tags/%E5%BD%95%E5%B1%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客优化</title>
+    <link href="https://jinzaili.github.io/2022/05/02/hexo-bo-ke-you-hua/"/>
+    <id>https://jinzaili.github.io/2022/05/02/hexo-bo-ke-you-hua/</id>
+    <published>2022-05-01T16:41:52.000Z</published>
+    <updated>2022-05-01T16:48:44.544Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;博客置顶&quot;&gt;&lt;a href=&quot;#博客置顶&quot; class=&quot;headerlink&quot; title=&quot;博客置顶&quot;&gt;&lt;/a&gt;博客置顶&lt;/h2&gt;&lt;h4 id=&quot;方法：&quot;&gt;&lt;a href=&quot;#方法：&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="hexo博客" scheme="https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="hexo博客" scheme="https://jinzaili.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    <category term="博客加密" scheme="https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86/"/>
+    
+    <category term="博客置顶" scheme="https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%BD%AE%E9%A1%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GitHub使用与加速教程</title>
+    <link href="https://jinzaili.github.io/2022/05/02/github-shi-yong-yu-jia-su-jiao-cheng/"/>
+    <id>https://jinzaili.github.io/2022/05/02/github-shi-yong-yu-jia-su-jiao-cheng/</id>
+    <published>2022-05-01T16:02:01.000Z</published>
+    <updated>2022-05-01T16:39:34.887Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;GitHub使用教程&quot;&gt;&lt;a href=&quot;#GitHub使用教程&quot; class=&quot;headerlink&quot; title=&quot;GitHub使用教程&quot;&gt;&lt;/a&gt;GitHub使用教程&lt;/h2&gt;&lt;p&gt;B站大脸程序员冯雨 GitHub 使用教程够用版: &lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="GitHub" scheme="https://jinzaili.github.io/categories/GitHub/"/>
+    
+    
+    <category term="GitHub" scheme="https://jinzaili.github.io/tags/GitHub/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Accounts</title>
     <link href="https://jinzaili.github.io/2022/05/01/accounts/"/>
     <id>https://jinzaili.github.io/2022/05/01/accounts/</id>
     <published>2022-05-01T15:43:10.000Z</published>
-    <updated>2022-05-01T15:57:59.411Z</updated>
+    <updated>2022-05-01T16:08:13.042Z</updated>
     
     
     <summary type="html">有东西被加密了, 请输入密码查看.</summary>
     
     
     
-    <category term="Markdown" scheme="https://jinzaili.github.io/categories/Markdown/"/>
+    <category term="GitHub" scheme="https://jinzaili.github.io/categories/GitHub/"/>
     
     
     <category term="account" scheme="https://jinzaili.github.io/tags/account/"/>
     
     <category term="password" scheme="https://jinzaili.github.io/tags/password/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HDC2021HarmonyOS百校联动公开课</title>
+    <link href="https://jinzaili.github.io/2021/10/25/hdc2021harmonyos-bai-xiao-lian-dong-gong-kai-ke/"/>
+    <id>https://jinzaili.github.io/2021/10/25/hdc2021harmonyos-bai-xiao-lian-dong-gong-kai-ke/</id>
+    <published>2021-10-25T12:30:20.000Z</published>
+    <updated>2022-05-01T16:31:44.134Z</updated>
+    
+    
+    <summary type="html">有东西被加密了, 请输入密码查看.</summary>
+    
+    
+    
+    <category term="活动经历" scheme="https://jinzaili.github.io/categories/%E6%B4%BB%E5%8A%A8%E7%BB%8F%E5%8E%86/"/>
+    
+    
+    <category term="HDC2021HarmonyOS" scheme="https://jinzaili.github.io/tags/HDC2021HarmonyOS/"/>
     
   </entry>
   
