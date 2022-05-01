@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://jinzaili.github.io/2022/05/01/hello-world/</loc>
+    <loc>https://jinzaili.github.io/2022/05/01/accounts/</loc>
     
     <lastmod>2022-05-01</lastmod>
     
@@ -73,6 +73,27 @@
   </url>
 
   
+  <url>
+    <loc>https://jinzaili.github.io/tags/account/</loc>
+    <lastmod>2022-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/password/</loc>
+    <lastmod>2022-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://jinzaili.github.io/categories/Markdown/</loc>
+    <lastmod>2022-05-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>

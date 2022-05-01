@@ -4,8 +4,8 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="friends, 技能笔记">
-    <meta name="description" content="勿临渴掘井，宜未雨绸缪">
+    <meta name="keywords" content="Accounts, 技能笔记">
+    <meta name="description" content="这是我的各种应用网站等的账号及密码">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -28,7 +28,7 @@
     </style>
 
 
-    <title>friends | 技能笔记</title>
+    <title>Accounts | 技能笔记</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -402,337 +402,359 @@
 
 </header>
 
-    <div class="bg-cover pd-header about-cover">
-    <div class="container">
-    <div class="row">
-    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
-        <div class="brand">
-            <div class="title center-align">
-                
-                宁静致远
-                
-            </div>
-
-            <div class="description center-align">
-                
-                <span id="subtitle"></span>
-                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
-                <script>
-                    var typed = new Typed("#subtitle", {
-                        strings: [ 
-                            
-                                "从来没有真正的绝境\, 只有心灵的迷途",
-                            
-                                "Never really desperate\, only the lost of the soul",
-                            
-                        ],
-                        startDelay: 300,
-                        typeSpeed: 100,
-                        loop: true,
-                        backSpeed: 50,
-                        showCursor: true
-                    });
-                </script>
-                
-            </div>
-        </div>
-    </div>
-</div>
-
-
+    
+<script src="/libs/cryptojs/crypto-js.min.js"></script>
 <script>
-    // 每天切换 banner 图.  Switch banner image every day.
-    var bannerUrl = "/medias/banner/" + new Date().getDay() + '.jpg';
-    $('.bg-cover').css('background-image', 'url(' + bannerUrl + ')');
+    (function() {
+        let pwd = 'JZloveYt_89753';
+        if (pwd && pwd.length > 0) {
+            if (pwd !== CryptoJS.SHA256(prompt('请输入访问本文章的密码')).toString(CryptoJS.enc.Hex)) {
+                alert('密码错误，将返回主页！');
+                location.href = '/';
+            }
+        }
+    })();
 </script>
 
 
+
+
+<div class="bg-cover pd-header post-cover" style="background-image: url('https://cdn.jsdelivr.net/gh/undersunn/PicX@master/material/piano-player-3847833.4767xfd3oi00.webp')">
+    <div class="container" style="right: 0px;left: 0px;">
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <div class="brand">
+                    <h1 class="description center-align post-title">Accounts</h1>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
-<style>
-    .friends-container {
-        margin-top: -100px;
-        margin-bottom: 30px;
-    }
 
-    .friends-container .tag-title {
-        margin-bottom: 10px;
-        color: #3C4858;
-        font-size: 1.75rem;
-        font-weight: 400;
-    }
 
-    .frind-ship img {
-        border-radius: 50%;
-    }
 
-    /* 一下是按钮样式 */
 
-    .frind-ship {
-        padding: 10px 20px;
-    }
+<main class="container content">
 
-    .frind-ship .title {
-        display: flex;
-        align-items: center;
-    }
-
-    .frind-ship .title div {
-        color: #fff;
-        padding-left: 10px;
-    }
-
-    .frind-ship .title img {
-        width: 100px;
-        height: 100px;
-        flex-shrink: 0;
-    }
-
-    .frind-ship .title h1 {
-        padding-bottom: 5px;
-        border-bottom: 2px solid #fff;
-        position: relative;
-        top:-15px;
-        left: 3px;
-    }
-
-    .friend-button {
-        display: flex;
-        justify-content: center;
-        margin-bottom: -27px;
-    }
-
-    .friend-button a {
-        border-radius: 40px;
-    }
-
-    .friend-all .tag-post {
-        margin-bottom: 30px;
-    }
-
-    .button-caution {
-        background-color: #FF4351;
-        border-color: #FF4351;
-        color: #FFF;
-    }
-
-    .button {
-        font-weight: 300;
-        font-size: 16px;
-        font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-        text-decoration: none;
-        text-align: center;
-        line-height: 40px;
-        height: 40px;
-        padding: 0 40px;
-        margin: 0;
-        display: inline-block;
-        appearance: none;
-        cursor: pointer;
-        border: none;
-        -webkit-box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        box-sizing: border-box;
-        -webkit-transition-property: all;
-        transition-property: all;
-        -webkit-transition-duration: .3s;
-        transition-duration: .3s;
-    }
-
-    .title {
-        margin-bottom: 0rem !important;
-    }
-
-    .card {
-        margin: 3rem 0 1rem 0 !important;
-    }
-
-    .button-glow.button-caution {
-        -webkit-animation-name: glowing-caution;
-        animation-name: glowing-caution;
-    }
-
-    @-webkit-keyframes glowing-caution {
-        from {
-            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-        }
-
-        50% {
-            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
-            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
-        }
-
-        to {
-            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-        }
-    }
-
-    @keyframes glowing-caution {
-        from {
-            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-        }
-
-        50% {
-            -webkit-box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
-            box-shadow: 0 0 20px rgba(255, 67, 81, 0.8);
-        }
-
-        to {
-            -webkit-box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-            box-shadow: 0 0 0 rgba(255, 67, 81, 0.3);
-        }
-    }
-
-    .button-caution:hover {
-        background-color: #ff7680;
-        border-color: #ff7680;
-        color: #FFF;
-        text-decoration: none;
-    }
-
-    .frind-card1 {
-        background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
-    }
-
-    .frind-card2 {
-        background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    }
-
-    .frind-card3 {
-        background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
-    }
-
-    .frind-card4 {
-        background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    }
-
-    .frind-card5 {
-        background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-    }
-
-    .frind-card6 {
-        background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-    }
-
-    .frind-card7 {
-        background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
-    }
-
-    .frind-card8 {
-        background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
-    }
-
-    .frind-card9 {
-        background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
-    }
-
-    .frind-card10 {
-        background-image: linear-gradient(to top, #f77062 0%, #fe5196 100%);
-    }
-
-    article .card {
-        overflow: visible !important;
-    }
-</style>
-
-<main class="content">
-    <div class="container friends-container">
-        <div class="card">
-            <div class="card-content">
-                <div class="tag-title center-align">
-                    <i class="fas fa-address-book"></i>&nbsp;&nbsp;友情链接
-                </div>
-                <article id="friends-link">
+    
+    <!-- 文章内容详情 -->
+<div id="artDetail">
+    <div class="card">
+        <div class="card-content article-info">
+            <div class="row tag-cate">
+                <div class="col s7">
                     
-                    
-                    <div class="row tags-posts friend-all">
+                    <div class="article-tag">
                         
+                            <a href="/tags/account/">
+                                <span class="chip bg-color">account</span>
+                            </a>
                         
-                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                            <div class="card frind-card1">
-                                <div class="frind-ship">
-                                    <div class="title">
-                                        <img src="https://cdn.jsdelivr.net/gh/Gunve/PictureBed@master/20211116/QQ%E5%9B%BE%E7%89%8720211116100807.3tvahd86ssu0.jpg" alt="img">
-                                        <div>
-                                            <h1 class="friend-name">Lumenovo</h1>
-                                            <p style="position: relative;top: -35px;">热心市民张某</p>
-                                        </div>
-                                    </div>
-                                    <div class="friend-button">
-                                        <a href="https://www.cnblogs.com/Lumenovo/" target="_blank"
-                                            class="button button-glow button-rounded button-caution">
-                                            前去学习
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                            <div class="card frind-card2">
-                                <div class="frind-ship">
-                                    <div class="title">
-                                        <img src="https://cdn.jsdelivr.net/gh/Gunve/PictureBed@master/20211115/t2.1i7diz5fw95s.jpg" alt="img">
-                                        <div>
-                                            <h1 class="friend-name">Teabo</h1>
-                                            <p style="position: relative;top: -35px;">网安界大佬，技术牛，人还特别好</p>
-                                        </div>
-                                    </div>
-                                    <div class="friend-button">
-                                        <a href="https://teabo.top/" target="_blank"
-                                            class="button button-glow button-rounded button-caution">
-                                            前去膜拜
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        
-                        <div class="col s12 m6 l4 friend-div" data-aos="zoom-in-up">
-                            <div class="card frind-card3">
-                                <div class="frind-ship">
-                                    <div class="title">
-                                        <img src="https://cdn.jsdelivr.net/gh/Gunve/PictureBed@master/20211115/friend_404.66x85b0uqcg0.gif" alt="img">
-                                        <div>
-                                            <h1 class="friend-name">duck_yin</h1>
-                                            <p style="position: relative;top: -35px;">喜欢就争取，得到就珍惜，遗憾就忘记</p>
-                                        </div>
-                                    </div>
-                                    <div class="friend-button">
-                                        <a href="https://duckyin.github.io/" target="_blank"
-                                            class="button button-glow button-rounded button-caution">
-                                            前去学习
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                            <a href="/tags/password/">
+                                <span class="chip bg-color">password</span>
+                            </a>
                         
                     </div>
                     
-                </article>
+                </div>
+                <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/Markdown/" class="post-category">
+                                Markdown
+                            </a>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="post-info">
+                
+                <div class="post-date info-break-policy">
+                    <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
+                    2022-05-01
+                </div>
+                
+
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
+                    9
+                </div>
+                
+
+                
+                <div class="info-break-policy">
+                    <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
+                    1 分
+                </div>
+                
+
+                
+                    <div id="busuanzi_container_page_pv" class="info-break-policy">
+                        <i class="far fa-eye fa-fw"></i>阅读次数:&nbsp;&nbsp;
+                        <span id="busuanzi_value_page_pv"></span>
+                    </div>
+				
             </div>
         </div>
+        <hr class="clearfix">
+
+        
+        <!-- 是否加载使用自带的 prismjs. -->
+        <link rel="stylesheet" href="/libs/prism/prism.css">
+        
 
         
 
-        <div class="card">
+        <div class="card-content article-card-content">
+            <div id="articleContent">
+                <div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">
+  <script id="hbeData" type="hbeData" data-hmacdigest="68890aa9fa10fc7793548654c17471fd6eef6dcbaa099200358793d11961c630">84728c4c646da40a944a9ebaa3223bab88f13a29b873e368582310f86a583aab5e1bdd3c1ccc81a9cea89b9d726abe94ac5dfa6a535a5538facb1b4251ac470345b89816027d7e362bcbf42819013be0a12cbcbe752da16bcc446367007699b98828ac0251c80974f0e4cfa46132648d0693fd83829ba337c72fb1b09aed4ff3ab1784c04d9875ad29159a82887ada45b42772fc3b2ae9578b6a844668c650e0d0ac0c0e8d12ef5b6130fa5dcdfe535884e74e9c98a97ce8af1137f1b3d96c794e8c7d38ca4072dd99381b1bfac1e9b1514ab37c0841df1bf364cab12dee3778cc5921787e90b13473816196224cc463cd31d0fffa56479637b06c1d58813820fa3c16b654e1d31164ba2ad8743b68b92a708bd88ccf163046fbbec08ba636a1bfb8406626c87f9d72cb840d3f241d6dfae94b4090b7003d2cb6ba834aa051818df429decf97117654776e0129a5ecf8e742a67fa7127b5973f3884ba428ef05ed4ace2d0cda5426b9564df1e4b1a0f8364dca21cc447abec3164d20d3610b6fe241bb250b466a43ef20576b40974b64a0f6dca4cab5da7aeacd723b0ca99f7a83540e4984da3bbc19eaa5405cf2341a86cbe0d06553292a6f120b26e16ad6bb85b47de9d6d7859d1b5ac61576d04bff39336dcb31e953fc9bfa28be1ddeda7ef74c3ed53d81916f31a2112a6575fbb493ac74206d3bff91d2858769ec4148f888ade9b98f7949dd81fbeb3800581cc344c8fb82752cf998fb304fba36769389609c8f6350db326d213149051c9e1a02b66120d3290446bc929aefd3ceb8fa4b418ed4d709cfb8dfd0fab25320342712f8a59efee95e7c944ecb9eb030fd865609bc09e8f41a1d29297d6c3fcc3b914ae9b25d3f1a0892b622de7c3d3804f3f3ac6a57d932eae674efe14cedfdb5535477a35f850478d966cb5f6fcd4ffc3c2ed1f8f38228ef416b8b626c4cd99941bee57d063231a74f3561c6f1f5f752c5a31d3e15b696cb1edcd84c0f141e06d088710cd7a401c9a4741fc8776638d93aff585c4bbb93f7db2a01dc3f6c6401bccb76376d281727c83d60a1b730f45396a1626c2f4dc0a28ddfcccee650811afb8b305e046c1c07b709f15450ccc7fe7dd58ae2966fa5253b09aa16db28db26162fa7661235ef5b330ce0efc78f185858e2527043d4e5e6bd245b1f71a611db938fb10ff5ab9edc2da851aab63225d5cb6a9e00b52360d74244445e63c9966f3dd9c6224a8314d9406bc70cfd85e4f41b130116d717aa60e74775c8ee9accab6353cdcc03bce7bb971ea5d931a55a08ec20e42e8e61f6c188293f94de2bf812d044dd1b141be1414d962fd5e13ecd22cb44241941907c5ff9204d0eed6c5bfe6dbb3f120ccf4b5aeebd985c5518f480e8faa22d0d828d8a9bf70c5e0718cc364373b6d370352ddc0eb9a00d9cda920e2dfdfd91f05b8e744acea047b4d603cf6f26657adbb5ce0bb5c147b0207c328d9f42238a71b916c8a250af814af3d1e83bd1f69cc855b74b9d668a4b95359e7400092a8a22ae687503b07e4a87a546e4f86defe44daae3d6186975fa82e8c0b5899955c007c3656edb67eb3c5c53d1e70274333503606bc9bcccae70ca5bb6382003288c38356e87618ae8fb3bedf452bc2707e7a0ba3aca1934a3f4cd00c2046f016fc5985491cf49e276b6c0637b9697b3b8c00a3f9f61d54b9bee2704b0fd36ade1b4341499b3b7d9e8d9b46f697e0acfe134f0b09ce03dbf1a21e33f344b91555dc70109218d39b34b4baffd7ec50daa98220f66e7a22a4ef27d836b505c76452be627ee0a5432d5b0f8c757a88608a9528fd5389fbac7d91f84e30fc0f328568965ed21b4c1f44f853719763cfe965a901c2be5c3cdec81b67c74e04f968b14d1b4c253a78b8057492d525451d117fc9bb5e64a4c8134c99be16d763836384d67f9c95dbc7b7804ba9bd0e569ace7120b4d5b659ce4be73f20aef64d2a60009b639c22de1392d93529d82e509a20c58d75b652154f0cc0fb00fa6bbf48083299578f0169c14eb31ecb755cc6b9d411fa3d60c3582101bc88dfb0b69e5c2493196a473c934cf381fd5b19f0c628cd0f05a3a5132e1ac7c52b9692a48ca13a0eaa89f593c8dbc8ca5bf51c1eb58d6408dae472bbe1a368bdd7d6af643c682f9a6ddf3a6ac647fabc164ab1e0686a4533abfefa5bd7084f29834746be078246be7b3165371a766830999c384302a331f0a7176de7dc9057c263670c579e9605c25258391bee8761ed0e70f8f664cfb17204ab3792b41935db036bb1c56166f4cbfe559af152f3f436f6bb38b517623a71836ce863c644f5bd1ca49837fd14b18c3d41be34e7be09ff3afa7c4e1451b29264f260e4d244b3f42680f1bbb49132b1e11f9abde4faa9aa353f990422f188e38b361a1b6a26bcf1496852f976ba046a8a34767955a1c283aeb2a660f33690e94bd2fa54ea126858b6937de8488cba5ced06b8fe9d0789c576c9de1635738e8733cf1ac84c80a191bac79070f3fb0a7b3b506c54255830b8f7f94e14c18ddcda36907ca42a765e7a000871da050a3804022ef196b2991f6d5990fca7e15ae77b83e0bd1d2dd2f005a7a155c94c44d6608da2ec06ab8173d574133483c94b59853ee3274e1550bdc52da7a14c9eb2bc7dc89a0de3386fc09e60cd9d2890fe972b66ff2194a3ceaa7813577712593cf74a3c6f610afaf09d4d6a533e37b3863ae5736c41fa0de25e6e2b74ee24a0977f3f575f06c0858cd4e432b70157d0c9baeaaca6b560bb23b90a280b5af181fd7ef6b03bb50c5e279509751a73ebbf167cce32c74d42db43554b4105342fc67dd6829f0ce79a9d72868e876caa4f07bf2dfa0560d41782cb7ab1b0a3b12ec5f0cec59032fd3af78aac7029c0614c0a6d789a8563d0073e7a927af9c16aa77dd56246a935f1e94cd6e1460eca4e80284409bb77a53ba8eb662e308919c164325abe38ea485b069511b213d7f20f354d4821e902d62644a1d5f18308e56efea4f34f74f7fa5a9c3c7f837e1c7e88ad9c3ad14ee120aeecf61da780e23f6fbf816462f50a086e57c254152c36159823b9b9eea1beb029251a7cb39eff3a1bf4da6a6c857bfc0ad75008744af2e2fac033b9d0aacd6f7a598c90efcdf363e8b25623a7f467f6581692d50c20f4fd40f52f9e567076ad70a5a9a203c56a5276ce66cecf81a189e995b70b8d4faf65144bb2bcaef2715e412e86cd4b96cb87778972b4e60a6663f7873d9c733c0082ccbd1a9754cb25d3e827c5f56f154f024b70f26b2510c8345bbcb15f2c56956d96e2ef89b03b8aed2f9d8e22e5d72631103ec8d3a544d0bef33c1a149fdf531a0efeb5dbbb22c60ac32ee4f7b47265a375b44b0eb24fb65375f3272dbd513c147c52cfb82122d37f9e3d9c82c1ee0b077796fa2462ea10366092f8159458c375d97ef87127fe7d4c8b8f7efe1628659ebd710bf5fa3575c78b866703d39ecb96e4cc7868fee44447e073dac7fb38d860c50a8109af62845d9606a6606b016965580a6ac6da625192eea5649a3af9427039ab501c4569999db626607a5aa24e41edeb10c26e04936f6b1fd3af969aa945250db3b848444296004cccefcccb8b8d1c1e0c3c35b1344bd98a26fabe56c20136935f04287d12bc9dbe9c5c7e37286d788118a93a5297dcf6b38bb902cc2ae61e93814d1d0283d5b213fd6e79f990919ea3b60066b0ea44fefdcc47d1e4eadad618538eb06c4b2b5bbd96ba6ef49e09e57c8a1c91c6f1be04225ef9a381059074c7b248a54f795e57e385befc6a51fb645f3fe8e59d3290c3b87314abc06ee3df1928bc635342fca742a33edc5b6d490d71656b58f02dfcbf9a35f417633442791574df66c421cdb4284c3efceb6bf7440fd342d6019245321c244ec7f079738089fd54e224a12b8947ac00751935b38272edbbc82b7c12e7c8a808a72cd6340e11fd483ee94dd32e554503648af84a52085c67d1bd23ede1f28acb8dde3bbae66aa21086f6e34316528c78e94f030001b663f10c065dc69c1a7d655836bb2d3c3f18321cf38548bad5892d1892f231e91c15840b381692a07e4ce0822a70de15fa9dfa47973a9adbc10b83f43667c3bdebb577634c4ade43deeab70f794789a03f83348566b15905a43952701b28bca04750fdeb3a2d045b6fc4d6d405458d9c90447bc003ff690c5ac0668eb799e6915ed416c15f94c7f16b9b745aa50b60989482e67ab388fbda838e902c673ded758881197bb3df04b669b0ae704a11546c62eb5f74bfd6bc0db4bcb41ba758dbb38ae937de8a398a433a52b64f4acc95d9087f7b945e466885a8a8f5e162cfe1ca9f0b0e925fa1b444c9f06664499a73de3db0b93fd57e74f0bf7e4e937b10e15a60268bcaf4443c58e0aa24f865dcb812afcf113f430265e6e73e7ba10a800b968f6ee716b82be67bf42b66a791a7d42bf04deed942d9191d0182abf773ae947cb0f626550bb365ae3cc05fab238ad0abf2ced85eeefdf6515b3c58e4e7576da6c2e4d67603f1923f25d3d137adfcf3b74f0ae3e0475726515f53f28a338c1801b748a8e7a3b811f915cf80e307474772b57f71c255feae790e4433eb58a06ad70ae82172828567c8d58d5a78e0e956bfa60d64b0e59d7657b67224be194e960e29cbd3616f1a3e86a7733fa849eabf4c851ed2bcd3d2fe5b8756a5d34dd4ff02f84dc5afd2d6e81adfeb00ec277a4a8ed2a3c8cc8d4091566e3e7fedad523a3344e180ed47d75a735a6755d351092cbd48aadadec8cb2843065839030a627991c894043fd2d3544a6473c697c07dfa1be0d74ad47e164369ab2010568956df09d9d3173d154c8993b3071d25a37cc2f19c579f637b2702ebb86e545087ac6628b1636997d5bf5099de6589d88ed5b4286e4ceaef2498eac9ad377d799a96dd6e675f4850292402ff9bfedc089710afdeabce907f189c152ee9fbeb0e059bf097bc36c554e23a668c0e35e77daace7f4f5bce00f07ce3a563aa9559866618e35de2e69689b178c80582443ad0af530575182044ee5841ca44b2053b69844400968a08dbd81ba51e6a5451263f189652757c39cb3cb6d1e2569ee40ba0d3fca97e6b7bd45c24489d2c762935fb5a29ae16f80d33fa1a11fbd199f7aaebeb029bd1039a31170b6659d75bd06776fac44cabfea5552aa9e97cf374ed400841f2ce950adb150f90953ce7fd9bd6c2f8e2a637030d6998eb8f0b2cf1f4599a0204eeeab6f4977e46d434db992a87e4dd850740ff890eb3b54c6d70f8a198a4a7cfc6d77e11c174789fcbcc30588564d3c210368db2c92f44f4f50742041b6549db4dcab4a98244b1ffec42cd0e969b55e1d5d669eb897bada7b2cf12fc23b9967504bb21237722cdf820da2031072ddc08f60faad5af869f757b657649efae628f5b3733f8e8c617a7bba8f0bef95c4b73a683e659227af2fe847c0a2beb956070af9194926ba0f7d828547cb5fbd14f0712842e5850ba29eeda03e47dafa5f98cd719f45fd513b902d36632ce304eafb8b59e3080b04aec151e3c1bd22aedf4f503d8585fe5ed229a278e775f7352d2bfc79e8a1c58950a08959ce090795cc58dc72df1505d536e9965c8ea18bacfb36f30fd8097cd849c71ca7a0f6a2e39846a4fb323cefa6be3371224d070d0a3a30d854c9680b58c03e9e82c6064f506d58fc36914ba82ceaffd4f544e9082e19f47b177a1affdc381e0f5bb4d81a615f1c585039d09871f47cf97ccf5129a6932cd212f2f43b8a081b0ea1ce38873ff63836f17384cd20e9e40f8cfcdcb77da84701831b7a2fe68d032b60bb4fd3b23ed48430fdbce45baccf94220af0e106190b551bb5893bc57fdd4d3a41ba94eb05a7258537cebce10a4387ab2c90ab9000a0a7938a8468f415970efaa37790b129843e73c600f2497c30a6888356308e3be610dcb265caa578c749ba73639642b16faa60be9764889a743ebf23ff89568713579387d7709e204b0a0203758a423b39486077b2aff9775239d2ca392e2c2395dd35f013cf1a3341dac82208f60583017c10b857d0433b12bf9add2b6bcbdbc7d6b3fb405ee0491825e067e8996702182ab31f0c051341dcc185562d80068661bc5d5fe3accd6651e6534f536b62b634c9b627437a276ad6b20f4801f4b6b2e9d6dd65dd4d253e42ad99c043acb44a56c79c1a0db637c4669540035ce9d7cdf10cb3fdcebf7ce669d8d91eda111ea98398fc26c87f4b5e0f819760b6ba8f19c28f112a61356e87ab0f38473160895de59e04543af30d2a0e913339e009243f2e29039398026f4aaae9a4284623dcaede3134c87e40bb93c8c2705c0a91dd2a4f71c0ada622ba552d0a333db73c7071addcccce535997c0fa54ba5a3a6cb64075bf7ea2207678494a204b7671061fc3e910e3e021166453e0bf809365fc84dad88ae36a9ffc03e0b965fa10c5ded40dce378785e57493048f4ef0460c3252f5fbb661b7e2934d5e9172622380e8339a3dbb46fe306c4aabcaf706db2093219eb1879467c83b645adf67a0c89ca75c9b2fb4588d086ae9d52a2451e06fb7b67a052dbe4db6834674122174116c20ef5417fb308aa5221f806b5121f3d57d3656841e53d419c9863bf7d398b3e86176f173d8bc7c05c6805e238c274bbdc1dc2ba298a07682376573ec6dd95abe3df3fdc97ce3c0b61b7b10137605451c7ac706bbf63872664e25d132d078a16096d8ce23ab958183b815b7f9e9b9e91e80c57a694cec423dc878defe3d3e9c1490bbc1dc8934efe99fb02f5cd6f72e013f1fae8c85a9560c69f710dac5b92a1092f4a9f2870e3ddaf88257a86b8176ac9fb7e409c5db099e848dce8dcc9ed1652d9cebe389f6b59352526eb9a855ac38b21143c86b94ddba41e7c2dc789b4b284124d310e7eb3ab2f4f33ead9227039bc3d7107bc8b7be69d6378536a21e9dc594391b45d3f86cfeaf2d249a</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好, 这里需要密码.</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">
+                
+            </div>
+            <hr/>
 
             
 
+    <div class="reprint" id="reprint-statement">
+        
+            <div class="reprint__author">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-user">
+                        文章作者:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="/about" rel="external nofollow noreferrer">JINZAILI</a>
+                </span>
+            </div>
+            <div class="reprint__type">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-link">
+                        文章链接:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    <a href="https://jinzaili.github.io/2022/05/01/accounts/">https://jinzaili.github.io/2022/05/01/accounts/</a>
+                </span>
+            </div>
+            <div class="reprint__notice">
+                <span class="reprint-meta" style="font-weight: bold;">
+                    <i class="fas fa-copyright">
+                        版权声明:
+                    </i>
+                </span>
+                <span class="reprint-info">
+                    本博客所有文章除特別声明外，均采用
+                    <a href="https://creativecommons.org/licenses/by/4.0/deed.zh" rel="external nofollow noreferrer" target="_blank">CC BY 4.0</a>
+                    许可协议。转载请注明来源
+                    <a href="/about" target="_blank">JINZAILI</a>
+                    !
+                </span>
+            </div>
+        
+    </div>
+
+    <script async defer>
+      document.addEventListener("copy", function (e) {
+        let toastHTML = '<span>复制成功，请遵循本文的转载规则</span><button class="btn-flat toast-action" onclick="navToReprintStatement()" style="font-size: smaller">查看</a>';
+        M.toast({html: toastHTML})
+      });
+
+      function navToReprintStatement() {
+        $("html, body").animate({scrollTop: $("#reprint-statement").offset().top - 80}, 800);
+      }
+    </script>
+
+
+
+            <div class="tag_share" style="display: block;">
+                <div class="post-meta__tag-list" style="display: inline-block;">
+                    
+                        <div class="article-tag">
+                            
+                                <a href="/tags/account/">
+                                    <span class="chip bg-color">account</span>
+                                </a>
+                            
+                                <a href="/tags/password/">
+                                    <span class="chip bg-color">password</span>
+                                </a>
+                            
+                        </div>
+                    
+                </div>
+                <div class="post_share" style="zoom: 80%; width: fit-content; display: inline-block; float: right; margin: -0.15rem 0;">
+                    <link rel="stylesheet" type="text/css" href="/libs/share/css/share.min.css">
+<div id="article-share">
+
+    
+    <div class="social-share" data-sites="twitter,facebook,google,qq,qzone,wechat,weibo,douban,linkedin" data-wechat-qrcode-helper="<p>微信扫一扫即可分享！</p>"></div>
+    <script src="/libs/share/js/social-share.min.js"></script>
+    
+
+    
+
+</div>
+
+                </div>
+            </div>
             
+                <style>
+    #reward {
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    #reward .reward-link {
+        font-size: 1.4rem;
+        line-height: 38px;
+    }
+
+    #reward .btn-floating:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 5px 15px rgba(0, 0, 0, 0.2);
+    }
+
+    #rewardModal {
+        width: 320px;
+        height: 350px;
+    }
+
+    #rewardModal .reward-title {
+        margin: 15px auto;
+        padding-bottom: 5px;
+    }
+
+    #rewardModal .modal-content {
+        padding: 10px;
+    }
+
+    #rewardModal .close {
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 1.3rem;
+        line-height: 20px;
+        cursor: pointer;
+    }
+
+    #rewardModal .close:hover {
+        color: #ef5350;
+        transform: scale(1.3);
+        -moz-transform:scale(1.3);
+        -webkit-transform:scale(1.3);
+        -o-transform:scale(1.3);
+    }
+
+    #rewardModal .reward-tabs {
+        margin: 0 auto;
+        width: 210px;
+    }
+
+    .reward-tabs .tabs {
+        height: 38px;
+        margin: 10px auto;
+        padding-left: 0;
+    }
+
+    .reward-content ul {
+        padding-left: 0 !important;
+    }
+
+    .reward-tabs .tabs .tab {
+        height: 38px;
+        line-height: 38px;
+    }
+
+    .reward-tabs .tab a {
+        color: #fff;
+        background-color: #ccc;
+    }
+
+    .reward-tabs .tab a:hover {
+        background-color: #ccc;
+        color: #fff;
+    }
+
+    .reward-tabs .wechat-tab .active {
+        color: #fff !important;
+        background-color: #22AB38 !important;
+    }
+
+    .reward-tabs .alipay-tab .active {
+        color: #fff !important;
+        background-color: #019FE8 !important;
+    }
+
+    .reward-tabs .reward-img {
+        width: 210px;
+        height: 210px;
+    }
+</style>
+
+<div id="reward">
+    <a href="#rewardModal" class="reward-link modal-trigger btn-floating btn-medium waves-effect waves-light red">赏</a>
+
+    <!-- Modal Structure -->
+    <div id="rewardModal" class="modal">
+        <div class="modal-content">
+            <a class="close modal-close"><i class="fas fa-times"></i></a>
+            <h4 class="reward-title">你的赏识是我前进的动力</h4>
+            <div class="reward-content">
+                <div class="reward-tabs">
+                    <ul class="tabs row">
+                        <li class="tab col s6 alipay-tab waves-effect waves-light"><a href="#alipay">支付宝</a></li>
+                        <li class="tab col s6 wechat-tab waves-effect waves-light"><a href="#wechat">微 信</a></li>
+                    </ul>
+                    <div id="alipay">
+                        <img src="/medias/reward/alipay.jpg" class="reward-img" alt="支付宝打赏二维码">
+                    </div>
+                    <div id="wechat">
+                        <img src="/medias/reward/wechat.png" class="reward-img" alt="微信打赏二维码">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(function () {
+        $('.tabs').tabs();
+    });
+</script>
 
             
+        </div>
+    </div>
 
-            
+    
 
-            
-            <style>
+    
+
+    
+
+    
+
+    
+        <style>
     .valine-card {
         margin: 1.5rem auto;
     }
@@ -997,23 +1019,193 @@
 <!--酷Q推送-->
 
 
-            
+    
 
-            
+    
 
-            
+    
 
+    
+
+    
+
+    
+
+<article id="prenext-posts" class="prev-next articles">
+    <div class="row article-row">
+        
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+            <div class="article-badge left-badge text-color">
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/2022/05/01/accounts/">
+                    <div class="card-image">
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/material/piano-player-3847833.4767xfd3oi00.webp" class="responsive-img" alt="Accounts">
+                        
+                        <span class="card-title">Accounts</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            这是我的各种应用网站等的账号及密码
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-01
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/account/">
+                        <span class="chip bg-color">account</span>
+                    </a>
+                    
+                    <a href="/tags/password/">
+                        <span class="chip bg-color">password</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
         </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                本篇&nbsp;<i class="far fa-dot-circle"></i>
+            </div>
+            <div class="card">
+                <a href="/2022/05/01/accounts/">
+                    <div class="card-image">
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/material/piano-player-3847833.4767xfd3oi00.webp" class="responsive-img" alt="Accounts">
+                        
+                        <span class="card-title">Accounts</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            这是我的各种应用网站等的账号及密码
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-05-01
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/Markdown/" class="post-category">
+                                    Markdown
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/account/">
+                        <span class="chip bg-color">account</span>
+                    </a>
+                    
+                    <a href="/tags/password/">
+                        <span class="chip bg-color">password</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
     </div>
-</main>
+</article>
+
+</div>
+
 
 <script>
-    $(function () {
-        $('#friends-link').masonry({
-            itemSelector: '.friend-div'
-        });
+    $('#articleContent').on('copy', function (e) {
+        // IE8 or earlier browser is 'undefined'
+        if (typeof window.getSelection === 'undefined') return;
+
+        var selection = window.getSelection();
+        // if the selection is short let's not annoy our users.
+        if (('' + selection).length < Number.parseInt('120')) {
+            return;
+        }
+
+        // create a div outside of the visible area and fill it with the selected text.
+        var bodyElement = document.getElementsByTagName('body')[0];
+        var newdiv = document.createElement('div');
+        newdiv.style.position = 'absolute';
+        newdiv.style.left = '-99999px';
+        bodyElement.appendChild(newdiv);
+        newdiv.appendChild(selection.getRangeAt(0).cloneContents());
+
+        // we need a <pre> tag workaround.
+        // otherwise the text inside "pre" loses all the line breaks!
+        if (selection.getRangeAt(0).commonAncestorContainer.nodeName === 'PRE' || selection.getRangeAt(0).commonAncestorContainer.nodeName === 'CODE') {
+            newdiv.innerHTML = "<pre>" + newdiv.innerHTML + "</pre>";
+        }
+
+        var url = document.location.href;
+        newdiv.innerHTML += '<br />'
+            + '来源: 技能笔记<br />'
+            + '文章作者: JINZAILI<br />'
+            + '文章链接: <a href="' + url + '">' + url + '</a><br />'
+            + '本文章著作权归作者所有，任何形式的转载都请注明出处。';
+
+        selection.selectAllChildren(newdiv);
+        window.setTimeout(function () {bodyElement.removeChild(newdiv);}, 200);
     });
 </script>
+
+
+<!-- 代码块功能依赖 -->
+<script type="text/javascript" src="/libs/codeBlock/codeBlockFuction.js"></script>
+
+<!-- 代码语言 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeLang.js"></script>
+
+
+<!-- 代码块复制 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeCopy.js"></script>
+
+
+<!-- 代码块收缩 -->
+
+<script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
+
+
+    
+
+</main>
+
+
 
 
     <footer class="page-footer bg-color">

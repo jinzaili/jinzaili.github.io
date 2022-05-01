@@ -1,4 +1,4 @@
-https://jinzaili.github.io/2022/05/01/hello-world/
+https://jinzaili.github.io/2022/05/01/accounts/
 https://jinzaili.github.io/404/index.html
 https://jinzaili.github.io/contact/index.html
 https://jinzaili.github.io/friends/index.html
@@ -6,3 +6,6 @@ https://jinzaili.github.io/about/index.html
 https://jinzaili.github.io/tags/index.html
 https://jinzaili.github.io/categories/index.html
 https://jinzaili.github.io/
+https://jinzaili.github.io/tags/account/
+https://jinzaili.github.io/tags/password/
+https://jinzaili.github.io/categories/Markdown/
