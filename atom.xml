@@ -6,7 +6,7 @@
   <link href="https://jinzaili.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinzaili.github.io/"/>
-  <updated>2022-05-01T17:24:42.029Z</updated>
+  <updated>2022-05-08T15:28:46.863Z</updated>
   <id>https://jinzaili.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数据库原理及应用</title>
+    <link href="https://jinzaili.github.io/2022/05/08/shu-ju-ku-yuan-li-ji-ying-yong/"/>
+    <id>https://jinzaili.github.io/2022/05/08/shu-ju-ku-yuan-li-ji-ying-yong/</id>
+    <published>2022-05-08T15:26:35.000Z</published>
+    <updated>2022-05-08T15:28:46.863Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&lt;strong&gt;1.&lt;/strong&gt;&lt;/th&gt;
+&lt;th align=&quot;left&quot;&gt;&lt;strong&gt;支持数据库各种操作的软件系统叫 （ B ）。&lt;br&gt;A 命令系统&lt;br&gt;B 数据库管理系统&lt;br&gt;C 数据库系统&lt;br&gt;D</summary>
+        
+      
+    
+    
+    
+    <category term="数据库原理及应用" scheme="https://jinzaili.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
+    
+    
+    <category term="MySQL" scheme="https://jinzaili.github.io/tags/MySQL/"/>
+    
+  </entry>
   
   <entry>
     <title>网络安全学习资源</title>
