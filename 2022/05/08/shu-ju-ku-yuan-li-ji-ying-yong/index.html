@@ -751,6 +751,31 @@
 <td align="left"></td>
 </tr>
 </tbody></table>
+<h2 id="实验二-数据定义"><a href="#实验二-数据定义" class="headerlink" title="实验二-数据定义"></a><strong>实验二-数据定义</strong></h2><ol>
+<li><p><strong>表定义：创建student表 创建student（学生表）：</strong>            </p>
+<p> **<img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/blog/image.modq7642rr4.webp" alt="image-20220508214023173">*</p>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">CREATE TABLE student(
+    sno char(7),
+    sname char(10) not null,
+    ssex char(1) CHECK(ssex='男' or ssex='女'),
+    sage SMALLINT CHECK(sage&gt;=15 and sage&lt;=45),
+    sdept VARCHAR(20) DEFAULT '计算机系',
+    PRIMARY KEY(sno)
+);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<ol start="2">
+<li><strong>表定义：创建course表 创建course（课程表）</strong></li>
+</ol>
+<p>   <img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/blog/image.5yojyj31hrw0.webp"></p>
+   <pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">**CREATE TABLE course(
+    cno char(10),
+    cname VARCHAR(20) NOT NULL,
+    ccredit SMALLINT,
+    semster SMALLINT,
+    period smallint,
+    PRIMARY KEY(cno)
+);**<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li>
+</ol>
 <table>
 <thead>
 <tr>
@@ -760,16 +785,6 @@
 </tr>
 </thead>
 <tbody><tr>
-<td><strong>表定义：创建student表 创建student（学生表）：</strong></td>
-<td><strong><img src="C:\Users\Jinza\AppData\Roaming\Typora\typora-user-images\image-20220508214023173.png" alt="image-20220508214023173"></strong></td>
-<td><strong>CREATE TABLE student(<br>  sno char(7),<br>  sname char(10) not null,<br>  ssex char(1) CHECK(ssex=’男’ or ssex=’女’),<br>  sage SMALLINT CHECK(sage&gt;=15 and sage&lt;=45),<br>  sdept VARCHAR(20) DEFAULT ‘计算机系’,<br>  PRIMARY KEY(sno)<br>);</strong></td>
-</tr>
-<tr>
-<td><strong>表定义：创建course表 创建course（课程表）</strong></td>
-<td><strong><img src="C:\Users\Jinza\AppData\Roaming\Typora\typora-user-images\image-20220508214306172.png" alt="image-20220508214306172"></strong></td>
-<td><strong>CREATE TABLE course(<br>cno char(10),<br>cname VARCHAR(20) NOT NULL,<br>ccredit SMALLINT,<br>semster SMALLINT,<br>period smallint,<br>PRIMARY KEY(cno)<br>);</strong></td>
-</tr>
-<tr>
 <td><strong>表定义：创建sc表 创建sc（选课表）</strong></td>
 <td><strong><img src="C:\Users\Jinza\AppData\Roaming\Typora\typora-user-images\image-20220508214519680.png" alt="image-20220508214519680"></strong></td>
 <td><strong>CREATE TABLE sc(<br>sno CHAR(7),<br>cno CHAR(10),<br>grade SMALLINT CHECK(grade&gt;0),<br>PRIMARY KEY(sno,cno),<br>FOREIGN KEY(sno) REFERENCES student(sno)<br>ON DELETE RESTRICT ON UPDATE CASCADE,<br>FOREIGN KEY(cno) REFERENCES course(cno)<br>ON DELETE RESTRICT ON UPDATE CASCADE<br>);</strong></td>
