@@ -6,7 +6,7 @@
   <link href="https://jinzaili.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinzaili.github.io/"/>
-  <updated>2022-05-15T16:07:09.920Z</updated>
+  <updated>2022-05-16T13:04:58.170Z</updated>
   <id>https://jinzaili.github.io/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>计算机组成原理速成</title>
+    <link href="https://jinzaili.github.io/2022/05/16/ji-suan-ji-zu-cheng-yuan-li-su-cheng/"/>
+    <id>https://jinzaili.github.io/2022/05/16/ji-suan-ji-zu-cheng-yuan-li-su-cheng/</id>
+    <published>2022-05-16T12:50:17.000Z</published>
+    <updated>2022-05-16T13:04:58.170Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;课时1-概论&quot;&gt;&lt;a href=&quot;#课时1-概论&quot; class=&quot;headerlink&quot; title=&quot;课时1 概论&quot;&gt;&lt;/a&gt;课时1 概论&lt;/h2&gt;&lt;h3 id=&quot;1、什么是计算机组成&quot;&gt;&lt;a href=&quot;#1、什么是计算机组成&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="计算机组成原理" scheme="https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
+    
+    
+    <category term="高数叔3小时计算机组成原理速成" scheme="https://jinzaili.github.io/tags/%E9%AB%98%E6%95%B0%E5%8F%943%E5%B0%8F%E6%97%B6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%80%9F%E6%88%90/"/>
+    
+  </entry>
   
   <entry>
     <title>数据库原理及应用</title>
@@ -50,7 +75,7 @@
     <link href="https://jinzaili.github.io/2022/05/02/wang-luo-an-quan-xue-xi-zi-yuan/"/>
     <id>https://jinzaili.github.io/2022/05/02/wang-luo-an-quan-xue-xi-zi-yuan/</id>
     <published>2022-05-01T17:17:57.000Z</published>
-    <updated>2022-05-01T17:24:42.029Z</updated>
+    <updated>2022-05-16T06:20:27.895Z</updated>
     
     
       
@@ -162,14 +187,14 @@
     <link href="https://jinzaili.github.io/2022/05/02/ping-mu-lu-zhi-xiao-gong-ju/"/>
     <id>https://jinzaili.github.io/2022/05/02/ping-mu-lu-zhi-xiao-gong-ju/</id>
     <published>2022-05-01T16:50:35.000Z</published>
-    <updated>2022-05-01T17:35:29.934Z</updated>
+    <updated>2022-05-28T08:36:10.697Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;div class=&quot;start-screen-recording-mid recording-style-black&quot;&gt;&lt;div&gt;&lt;div class=&quot;rec-dot&quot;&gt;&lt;/div&gt;&lt;span&gt;开始录制&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;script</summary>
+    <summary type="html">&lt;div class=&quot;start-screen-recording-big recording-style-black&quot;&gt;&lt;div&gt;&lt;div class=&quot;rec-dot&quot;&gt;&lt;/div&gt;&lt;span&gt;开始录制&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;script</summary>
         
       
     
@@ -241,7 +266,7 @@
     <link href="https://jinzaili.github.io/2022/05/01/accounts/"/>
     <id>https://jinzaili.github.io/2022/05/01/accounts/</id>
     <published>2022-05-01T15:43:10.000Z</published>
-    <updated>2022-05-01T17:40:12.857Z</updated>
+    <updated>2022-05-24T15:05:52.469Z</updated>
     
     
     <summary type="html">有东西被加密了, 请输入密码查看.</summary>
