@@ -173,6 +173,13 @@
 
   
   <url>
+    <loc>https://jinzaili.github.io/tags/GitHub/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jinzaili.github.io/tags/account/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -187,13 +194,6 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/tags/GitHub/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jinzaili.github.io/tags/HDC2021HarmonyOS/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -202,27 +202,6 @@
   
   <url>
     <loc>https://jinzaili.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%BD%AE%E9%A1%B6/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -250,7 +229,35 @@
   </url>
   
   <url>
+    <loc>https://jinzaili.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E5%8A%A0%E5%AF%86/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%BD%AE%E9%A1%B6/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jinzaili.github.io/tags/%E5%AE%9D%E8%97%8F%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/%E5%BD%95%E5%B1%8F/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -265,13 +272,6 @@
   
   <url>
     <loc>https://jinzaili.github.io/tags/%E6%80%9D%E7%A7%91/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E5%BD%95%E5%B1%8F/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -329,14 +329,14 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://jinzaili.github.io/categories/%E6%95%99%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E6%95%99%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -350,14 +350,14 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
+    <loc>https://jinzaili.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/</loc>
+    <loc>https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
