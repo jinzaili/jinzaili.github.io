@@ -561,14 +561,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    24.3k
+                    28k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    98 分
+                    112 分
                 </div>
                 
 
@@ -927,8 +927,124 @@
 <td align="left">数据库的  B  是指数据的正确性和相容性．<br>A ．安全性            <br> B ．完整性<br> C ．并发控制        <br> D ．恢复</td>
 </tr>
 <tr>
-<td></td>
-<td align="left"></td>
+<td>84.</td>
+<td align="left">数据库系统并发控制的主要方法是采用  C  机制。<br>A ．拒绝        <br> B ．改为串行<br>C ．封锁        <br> D ．不加任何控制</td>
+</tr>
+<tr>
+<td>85.</td>
+<td align="left">若系统在运行过程中，由于某种原因，造成系统停止运行．致使事务在执行过程中以非控方式终止，这时内存中的信息丢失，而存储在外存上的数据未受影响，这种情况称为 B <br>. A ．事务故障       <br>B ．系统故障<br>C ．介质故障       <br>D ．运行故障</td>
+</tr>
+<tr>
+<td>86.</td>
+<td align="left">若系统在运行过程中，由于某种硬件故障，使存储在外存上的数据部分损失或全部损失，这种情祝称为  C 。<br>A ．事务故障        <br> B ．系统故障<br>C ．介质故障        <br> D ．运行故障</td>
+</tr>
+<tr>
+<td>87.</td>
+<td align="left">用于数据库恢复的重要文件是 C .<br>A ．数据库文件  <br> B ．索引文件<br>C ．日志文件        <br> D . 备注文件</td>
+</tr>
+<tr>
+<td>88.</td>
+<td align="left">并发操作会带来哪些数据不一致性？ D 。<br>A ．丢失修改、不可重复读、脏读、死锁<br>B   不可重复读、脏读、死锁<br>C ．丢失修改、脏读、死锁<br>D ．丢失修改、不可重复读、脏读</td>
+</tr>
+<tr>
+<td>89.</td>
+<td align="left">如果事务T获得了数据项Q上的排它锁，则T对Q D  。<br><br>A. 只能读不能写   <br>B. 只能写不能读   <br>C. 不能读不能写   <br>D. 既可读又可写</td>
+</tr>
+<tr>
+<td>90.</td>
+<td align="left">DBMS对数据库的锁有共享锁和排它锁，封锁是 C 的主要方法。<br><br>A. 安全性控制  <br>B. 完整性控制   <br>C. 并发控制     <br>D. 数据库恢复</td>
+</tr>
+<tr>
+<td>91.</td>
+<td align="left">关于“死锁”，下列说法中正确的是 D  。<br>A ．死锁是操作系统中的问题，数据库操作中不存在<br>B ．在数据库操作中防止死锁的方法是禁止两个用户同时操作数据库<br>C . 当两个用户竞争相同资源时不会发生死锁<br>D ．只有出现并发操作时，才有可能出现死锁</td>
+</tr>
+<tr>
+<td>92.</td>
+<td align="left">数据库的封锁机制是 C 的主要方法。<br><br>A ．完整性     <br>B  ．安全性      <br>C ．并发控制    <br>D ．恢复</td>
+</tr>
+<tr>
+<td>93.</td>
+<td align="left">若事务T 对数据R 已加X 锁，则其他事务对数据R  D <br>A ．可以加S 锁不能加X 锁     <br>B ．不能加S 锁可以加X 锁<br>C ．可以加S 锁也可以加X 锁      <br>D ．不能加任何锁</td>
+</tr>
+<tr>
+<td>94.</td>
+<td align="left">解决并发操作带来的数据不一致性问题时普遍采用 A  <br> A ．封锁           <br>B ．恢复<br>C ．存取控制． <br>D ．协商</td>
+</tr>
+<tr>
+<td>98.</td>
+<td align="left">多用户数据库系统的目标之一是使它的每个用户好像正在使用一个单用户教据库，为此数据库系统必须进行 C .<br>A ．安全性控制     <br>B ．完整性控制<br>C ．并发控制                 <br>D ．可靠性控制</td>
+</tr>
+<tr>
+<td>99.</td>
+<td align="left">事务的持久性是指 B <br>A ．事务中包括的所有操作要么都做，要么都不做<br>B ．事务一旦提交，对数据库的改变是永久的<br>C ．一个事务内部的操作及使用的数据对并发的其他事务是隔离的<br>D ．事务必须使数据库从一个一致性状态变到另一个一致性状态</td>
+</tr>
+<tr>
+<td>100.</td>
+<td align="left">下列不属于概念结构设计时常用的数据抽象方法的是 A  .<br><br>A ．合并      <br>B ．聚集     <br>C ．概括     <br>D ．分类</td>
+</tr>
+<tr>
+<td>101.</td>
+<td align="left">写一个修改到数据库中，与写一个表示这个修改的运行记录到日志文件中是两个不同的操作，对这两个操作的顺序安排应该是 B       <br>A ．前者先做                      <br>B ．后者先做<br>C .  由程序员在程序中作安排  <br>D ．哪一个先做由系统决定</td>
+</tr>
+<tr>
+<td>102.</td>
+<td align="left">在第一个事务以S 封锁方式读数据A 时，第二个事务对数据A 的读方式会遭到失败的是 A<br> A ．实现X 封锁的读       <br>B .  实现S 封锁的读<br>C ．不加封锁的读         <br>D ．实现共享型封锁的读</td>
+</tr>
+<tr>
+<td>103.</td>
+<td align="left">C   是DBMS的基本单位，它是用户定义的一组逻辑一致的程序序列．<br> A ．程序         <br>B ．命令<br>C ．事务         <br>D ．文件</td>
+</tr>
+<tr>
+<td>104.</td>
+<td align="left">事务的原子性是指 A <br>A ．事务中包括的所有操作要么都做，要么都不做<br>B ．事务一旦提交，对数据库的改变是永久的<br>C ．一个事务内部的操作及使用的数据对并发的其他事务是隔离的<br>D ．事务必须使数据库从一个一致性状态变到另一个一致性状态</td>
+</tr>
+<tr>
+<td>105.</td>
+<td align="left">事务是数据库执行的基本工作单位。如果一个事务执行成功，则全部更新提交；如果一个事务执行失败，则已做过的更新被恢复原状，好像整个事务从未有过这些更新，这就保持数据库处于 B   状态。<br>A ．安全性    <br>B ．一致性<br>C ．完整性     <br>D ．可靠性</td>
+</tr>
+<tr>
+<td>106</td>
+<td align="left">事务的一致性是指 D .<br>A ．事务中包括的所有操作要么都做，要么都不做<br>B ．事务一旦提交，对数据库的改变是永久的<br>C ．一个事务内部的操作及使用的数据对并发的其他事务是隔离的<br>D ．事务必须使数据库从一个一致性状态变到另一个一致性状态</td>
+</tr>
+<tr>
+<td>107.</td>
+<td align="left">数据恢复的建立冗余数据的常用技术 A 。<br><br>A. 数据转储和登记日志文件     <br>B. 数据备份和加密技术    <br>C. 视图与审计     <br>D. 数据库镜像</td>
+</tr>
+<tr>
+<td>108.</td>
+<td align="left">下列不属于数据库逻辑设计阶段应考虑的问题是 B  。<br>A ．概念模式               <br>B ．存取方法               <br>C ．处理要求               <br>D . DBMS 特性</td>
+</tr>
+<tr>
+<td>109.</td>
+<td align="left">下面不属于数据库物理设计阶段应考虑的问题是  D 。 <br>A ．存取方法的选择                                                       <br>B ．索引与入口设计 <br>C ．与安全性、完整性、一致性有关的问题          <br>D ．用户子模式设计</td>
+</tr>
+<tr>
+<td>110.</td>
+<td align="left">在强制存取控制机制中，当主体的许可证级别等于客体的密级时，主体可以对客体进行如下操作（  C ）。 <br>A 读取<br>B 写入<br>C 读取，写入<br>D 不可操作</td>
+</tr>
+<tr>
+<td>101.</td>
+<td align="left">强制存取控制策略是TCSEC/TDI哪一级安全级别的特色（  C ）。<br>A C1<br>B C2<br>C B1<br>D B2</td>
+</tr>
+<tr>
+<td>102.</td>
+<td align="left">事务的隔离性是指  C <br>A ．事务中包括的所有操作要么都做，要么都不做<br>B ．事务一旦提交，对数据库的改变是永久的<br>C ．一个事务内部的操作及使用的数据对并发的其他事务是隔离的<br>D ．事务必须使数据库从一个一致性状态变到另一个一致性状态</td>
+</tr>
+<tr>
+<td>103.</td>
+<td align="left">数据库安全审计系统提供了一种（  ）的安全机制。 C <br>A 事前检查<br>B 事发时追踪<br>C 事后检查<br>D 事前预测</td>
+</tr>
+<tr>
+<td>104.</td>
+<td align="left">下列不属于需求分析阶段工作的是 A  。 <br>A ．分析用户活动                 <br>B ．建立E-R图 <br>C ．建立数据字典             <br>D ．建立数据流图</td>
+</tr>
+<tr>
+<td>105.</td>
+<td align="left">在关系数据库设计中，设计关系模式是  C  的任务。<br><br>A ．需求分析阶段               <br>B ．概念设计阶段             <br>C.   逻辑设计阶段         <br>D ．物理设计阶段</td>
+</tr>
+<tr>
+<td>106.</td>
+<td align="left">下列属于数据库物理设计工作的是  B<br> A ．将E-R 图转换为关系模式           <br>B ．选择存取路径 <br>C . 建立数据流图                                    <br>D ．收集和分析用户活动</td>
 </tr>
 </tbody></table>
 <p>设有两个事务Tl 、T2 ，其并发操作如图所示，下列评价正确的是( B ).</p>
@@ -1195,6 +1311,24 @@
 <p>B．将Course表中的课程号C01修改为C100 </p>
 <p>C．修改SC表上第二行选课记录，使得课程号由C02变为C20</p>
 <p>D．修改SC表上第一行选课记录，使得课程号C01变为C11</p>
+<hr>
+<p>设有两个事务Tl 、T2 ，其并发操作如图所示，下列评价正确的是 B .</p>
+<p>A ．该操作不存在问题    </p>
+<p>B ．该操作丢失修改<br>C ．该操作不能重复读    </p>
+<p>D ．该操作读“脏”数据</p>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.1ly9s0fy6o9s.webp"></p>
+<hr>
+<p>设有两个事务Tl 、T2 ，其并发操作如图所示，下列评价正确的是 D .</p>
+<p>A ．该操作不存在问题    </p>
+<p>B ．该操作丢失修改<br>C ．该操作不能重复读    </p>
+<p>D ．该操作读“脏”数据</p>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.2xsi755vup60.webp"></p>
+<hr>
+<p>设Tl 和T2两个事务，它们对数据A 的并发操作如图所示（其中SLOCK A 表示对数据A 上S 锁，UNLOCK A 表示对数据A 解锁，COMMIT 表示提交操作）。对这个并发操作，下面5 个评价中的  B  和  D  两条评价是正确的．<br>A ．该操作不能重复读<br>B ．该操作丢失修改</p>
+<p>C ．该操作符合完整性要求<br>D ．该操作的第（l ）步中，事务T1 应申请X 锁</p>
+<p>E ．该操作的第（2 ）步中，事务T2 不可能得到对A 的锁</p>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.7dx9zq40gj80.webp"></p>
+<hr>
 <h2 id="实验二-数据定义"><a href="#实验二-数据定义" class="headerlink" title="实验二-数据定义"></a><strong>实验二-数据定义</strong></h2><blockquote>
 <p><strong>表定义：创建student表 创建student（学生表）：</strong>            </p>
 </blockquote>
@@ -3321,7 +3455,7 @@ where sc.cno=course.cno and cname=c and sno=s;<span aria-hidden="true" class="li
 
 <blockquote>
 <ol start="5">
-<li>SQL存储函数：查询学生的平均分<br>  #建立存储函数show_grade：根据课程号，返回该课程的平均成绩(保留两位小数)。</li>
+<li>SQL存储函数：查询学生的平均分<br> #建立存储函数show_grade：根据课程号，返回该课程的平均成绩(保留两位小数)。</li>
 </ol>
 <p>学生数据库db_student包括三个数据表student（学生表）、course（课程表）和sc（选课表）。表结构如下：</p>
 </blockquote>
@@ -3480,6 +3614,153 @@ end $<span aria-hidden="true" class="line-numbers-rows"><span></span><span></spa
 <p>​       WRITE(B)</p>
 <p>UNLOCK(A)</p>
 <p>​       UNLOCK(B)</p>
+<h2 id="课堂测试7-数据恢复与并发控制"><a href="#课堂测试7-数据恢复与并发控制" class="headerlink" title="课堂测试7-数据恢复与并发控制"></a><strong>课堂测试7-数据恢复与并发控制</strong></h2><blockquote>
+<p>设有一个关系R(A,B,C,D,E)，它的最小函数依赖集为FD={A-&gt;B,A-&gt;C,C-&gt;D,C-&gt;E},则该关系的候选码为   A   （若有多个，用逗号隔开），满足第   2    NF。</p>
+</blockquote>
+<blockquote>
+<p>检索至少选修了“计算机网络基础”和“数据库原理”两门课程的学生的姓名、所在系</p>
+<p>设有四个关系：</p>
+<p>学生关系S(SNO,SNAME,SSEX,SAGE,SDEPT,SSPECIAL)，属性含义为学号(SNO),姓名(SNAME),性别(SSEX),年龄(SAGE),所在系(SDEPT),所在专业(SSPECIAL)；</p>
+<p>课程关系C(CNO,CNAME,CCREDIT,CDEPT,CPRECNO,TNO)，属性含义为：课程号(CNO),课程名(CNAME),学分(CCREDIT),开课系(CDEPT),先修课程号(CPRECNO),教师编号(TNO)；</p>
+<p>教师关系T(TNO,TNAME,TSEX,TSPECIAL)，属性含义为： 教师编号(TNO) ,教师姓名(TNAME),教师性别(TSEX),从事专业(TSPECIAL)；</p>
+<p>学习关系SC(SNO,CNO,GRADE)，属性含义为：学号(SNO),课程号(CNO),成绩(GRADE)。</p>
+<p>请用关系代数表达式表示查询任务：检索至少选修了“计算机网络基础”和“数据库原理”两门课程的学生的姓名、所在系。</p>
+</blockquote>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">πsno,sdept,cno(s∞sc)÷πcno(δcname="计算机网络基础"∨cname="数据库原理"(c))<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>检索计算机系学生的选课情况，列出学号、姓名、课程号和成绩</p>
+<p>设有四个关系：</p>
+<p>学生关系S(SNO,SNAME,SSEX,SAGE,SDEPT,SSPECIAL)，属性含义为学号(SNO),姓名(SNAME),性别(SSEX),年龄(SAGE),所在系(SDEPT),所在专业(SSPECIAL)；</p>
+<p>课程关系C(CNO,CNAME,CCREDIT,CDEPT,CPRECNO,TNO)，属性含义为：课程号(CNO),课程名(CNAME),学分(CCREDIT),开课系(CDEPT),先修课程号(CPRECNO),教师编号(TNO)；</p>
+<p>教师关系T(TNO,TNAME,TSEX,TSPECIAL)，属性含义为： 教师编号(TNO) ,教师姓名(TNAME),教师性别(TSEX),从事专业(TSPECIAL)；</p>
+<p>学习关系SC(SNO,CNO,GRADE)，属性含义为：学号(SNO),课程号(CNO),成绩(GRADE)。</p>
+<p>请用关系代数表达式表示查询任务：检索计算机系学生的选课情况，列出学号、姓名、课程号和成绩。</p>
+</blockquote>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">πsno,sname,cno,grade(δsdept="计算机系"(s∞sc))<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>规范化模式分解：关系模式R（员工编号，日期，零件数，部门名称，部门经理）</p>
+<p>关系模式R（员工编号，日期，零件数，部门名称，部门经理），表示 某个工厂里每个员工的日生产零件数以及员工所在的部门和经理信息。假设：每个员工每天只有一个日生产零件数，每个员工只在一个部门工作，每个部门只有一个经理，那么：</p>
+<ol>
+<li>写出R的函数依赖集和码；</li>
+<li>判断R所属的范式，并把R分解成为3NF。</li>
+</ol>
+</blockquote>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">1、依赖集:
+(员工编号，日期)→零件数,员工编号→部门名称，部门名称→部门经理。
+
+码：（员工编号，日期）
+
+2、属于1NF存在非主属性部门名称对码的部分函数依赖
+
+R1(员工编号，日期，零件数)
+
+R2(部门名称，部门经理)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>一个图书管理系统，基本要求如下：</p>
+<p>一个图书管理系统，基本要求如下：</p>
+<ul>
+<li>一名读者可借阅多种书，一种书可由多名读者借阅；  </li>
+<li>一种书只在一个书库存放，一个书库可存放多种书；</li>
+<li>一个书库有一个管理员，一个管理员只负责一个书库；</li>
+<li>读者信息包括读者编号、姓名、单位等；图书信息包括书号、书名、作者、出版社等；书库信息包括书库号、面积等；管理员包括管理员编号、姓名等。</li>
+</ul>
+<p>根据上述信息，完成以下内容：</p>
+<p>(1)设计系统的E-R模型；</p>
+<p>(2)将设计的E-R模型转换为关系模型，并标出关系的码。</p>
+</blockquote>
+<blockquote>
+<p>​	查询从来没有人借阅过的图书信息，列出书号，书名，作者。</p>
+<p>查询从来没有人借阅过的图书信息，列出书号，书名，作者，结果按书号升序排列。</p>
+<p>表结构如下：</p>
+<p>card(借书卡) 表：cno 卡号，name 姓名，class 班级</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.379s55clr6c0.webp"></p>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">select distinct bno,bname,author
+from book
+where bno not in(select borrow.bno from borrow)
+order by 1;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>查询被借阅次数最多的图书信息，列出书号、书名、作者<br>查询被借阅次数最多的图书信息，列出书号、书名、作者</p>
+<p>表结构如下：</p>
+<p>card(借书卡) 表：cno 卡号，name 姓名，class 班级</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.58ebcpr35zo0.webp"></p>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">
+
+
+
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>创建库存表<br>创建库存表sg，表结构如下：</p>
+<p>1、仓库编号：SNO    字符型（5） 主码;</p>
+<p>2、商品编号：GNO    字符型（6）主码;</p>
+<p>3、库存数量：QUANTITY  整型；</p>
+<p>4、外码约束：SNO 参照库存表：store的SNO列，设置删除限制，更新级联；</p>
+<p>5、外码约束：GNO 参照商品表：goods的GNO列，设置删除限制，更新级联；</p>
+<p>【注意表名必须为小写】</p>
+</blockquote>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">create table sg(
+  sno char(5),
+  gno char(6),
+  quantity int,
+  primary key(sno,gno),
+  foreign key (sno) references store(sno)
+  ON DELETE RESTRICT ON UPDATE CASCADE,
+  foreign key (gno) references goods(gno)
+  ON DELETE RESTRICT ON UPDATE CASCADE
+  );<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>SQL查询：统计各部门人数<br>#统计各部门人数，要求输出部门id，部门名称，人数。按部门排序。</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.3rn8n6xn2580.webp"></p>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">select e.dept_id,dept_name,count(*)
+from employee e,department d
+where e.dept_id=d.dept_id
+group by e.dept_id
+order by 1;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>查询当前同时借有”计算方法”和”组合数学”两本书的读者<br>查询当前同时借有”计算方法”和”组合数学”两本书的读者，输出其借书卡号，并按卡号升序排序输出。</p>
+<p>表结构如下：</p>
+<p>book(图书) 表：bno 书号，bname 书名，author 作者，price 单价，quantity 库存数</p>
+</blockquote>
+<p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.2w0b1uihzvc0.webp"></p>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">select cno
+from borrow b1
+where not exists(select *from book
+                bname in('计算方法','组合数学') and not exists (select * from borrow b2
+                                                       where b2.cno=b1.cno and b2.bno = book.bno))
+                                                       order by 1;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>修改编号33的“安志杰”的部门编号为1005，职位为“业务员”。<br>修改编号33的“安志杰”的部门编号为1005，职位为“业务员”。</p>
+</blockquote>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">update employee
+set dept_id = 1005，job_title = '业务员'
+where employee_id=33;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>
+
 
                 
             </div>
@@ -4301,7 +4582,7 @@ end $<span aria-hidden="true" class="line-numbers-rows"><span></span><span></spa
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">34k</span>
+                        class="white-color">37.6k</span>
             
             
             
