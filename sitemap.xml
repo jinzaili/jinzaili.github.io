@@ -173,13 +173,6 @@
 
   
   <url>
-    <loc>https://jinzaili.github.io/tags/GitHub/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://jinzaili.github.io/tags/account/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -194,6 +187,13 @@
   </url>
   
   <url>
+    <loc>https://jinzaili.github.io/tags/GitHub/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jinzaili.github.io/tags/HDC2021HarmonyOS/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -202,27 +202,6 @@
   
   <url>
     <loc>https://jinzaili.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E5%AE%9D%E5%A1%94/</loc>
-    <lastmod>2022-06-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -244,6 +223,27 @@
   
   <url>
     <loc>https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%BD%AE%E9%A1%B6/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/%E6%9C%8D%E5%8A%A1%E5%99%A8/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/%E5%AE%9D%E5%A1%94/</loc>
+    <lastmod>2022-06-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://jinzaili.github.io/tags/%E9%98%BF%E9%87%8C%E4%BA%91/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -292,14 +292,14 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/tags/MySQL/</loc>
+    <loc>https://jinzaili.github.io/tags/%E9%AB%98%E6%95%B0%E5%8F%943%E5%B0%8F%E6%97%B6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%80%9F%E6%88%90/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/tags/%E9%AB%98%E6%95%B0%E5%8F%943%E5%B0%8F%E6%97%B6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%80%9F%E6%88%90/</loc>
+    <loc>https://jinzaili.github.io/tags/MySQL/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -329,14 +329,14 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E6%95%99%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://jinzaili.github.io/categories/%E6%95%99%E7%A8%8B%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -371,14 +371,14 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/</loc>
+    <loc>https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</loc>
+    <loc>https://jinzaili.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2022-06-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
