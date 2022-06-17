@@ -41,9 +41,9 @@
 
     <script src="/libs/jquery/jquery-3.6.0.min.js"></script>
 
-<meta name="generator" content="Hexo 6.1.0">
+<meta name="generator" content="Hexo 6.1.0"><link rel="alternate" href="/atom.xml" title="技能笔记" type="application/atom+xml">
+
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-<link rel="alternate" href="/atom.xml" title="技能笔记" type="application/atom+xml">
 </head>
 
 
@@ -561,14 +561,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    29.9k
+                    30.1k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    119 分
+                    120 分
                 </div>
                 
 
@@ -3093,7 +3093,7 @@ ORDER BY sc.sno;<span aria-hidden="true" class="line-numbers-rows"><span></span>
 <p>教师编号(TNO),教师姓名(TNAME),教师性别(TSEX),从事专业(TSPECIAL),成绩(GRADE)</p>
 <p>请用关系代数表达式表示查询任务：<strong>检索至少选修两门课程的学生学号和姓名</strong>。</p>
 </blockquote>
-<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">πsno,sname(δ(1=4∧2!=5)(C×C))<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
 
 
 
@@ -3226,6 +3226,7 @@ ORDER BY sc.sno;<span aria-hidden="true" class="line-numbers-rows"><span></span>
 <p>（2）转化为适当的关系模型，并给出关系的主码和外码。</p>
 </blockquote>
 <p>（1）</p>
+<p><img src="C:\Users\Jinza\AppData\Roaming\Typora\typora-user-images\image-20220617145912430.png" alt="image-20220617145912430"></p>
 <p>（2）关系模型，下划线主码，斜体外码</p>
 <p>科室（<u>科室代码</u>，<em>科室名称</em>）</p>
 <p>医生（<u>工号</u>，<em>姓名</em>，职称，聘用日期，聘用期限，科室）</p>
@@ -3279,7 +3280,20 @@ $$<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><
 <p>CNO 课程号CHAR(10)</p>
 <p>GRADE  绩 SMALLINT</p>
 </blockquote>
-<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">delimiter $$
+create PROCEDURE tj_rs(in msdept varchar(20),out suma int,out sumb int,out sumc int)
+begin
+select count(sno) from student
+where msdept=sdept
+into suma;
+select count(sno) from student
+where msdept=sdept and ssex='男'
+into sumb;
+select count(sno) from student
+where msdept=sdept and ssex='女'
+into sumc;
+end $$
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -3401,6 +3415,19 @@ limit 3;
 where sc.cno=avg_sc.cno
 and grade&gt;avggrade;
 <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+
+
+<blockquote>
+<p>12.统计各级职位(不含NULL)员工人数，按照人数降序排列。</p>
+<p>统计各级职位(不含NULL)员工人数，按照人数降序排列。输出职位，人数。</p>
+</blockquote>
+<p><img src="C:\Users\Jinza\AppData\Roaming\Typora\typora-user-images\image-20220617154347223.png" alt="image-20220617154347223"></p>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">select job_title,count(*)
+from employee where job_title is not null 
+group by job_title
+order by count(*) desc;
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -3796,6 +3823,14 @@ R2(部门名称，部门经理)<span aria-hidden="true" class="line-numbers-rows
 <p>(1)设计系统的E-R模型；</p>
 <p>(2)将设计的E-R模型转换为关系模型，并标出关系的码。</p>
 </blockquote>
+<p>(1)</p>
+<p><img src="C:\Users\Jinza\AppData\Roaming\Typora\typora-user-images\image-20220617152135982.png" alt="image-20220617152135982"></p>
+<p>(2)关系模型，主码用下划线标识</p>
+<p>​     读者（<u>读者编号</u>，姓名，单位）</p>
+<p>​     图书（<u>书号</u>，书名，作者，出版社，书库号）</p>
+<p>​     借阅（<u>读者编号</u>，书号）</p>
+<p>​     书库（<u>书库号</u>，面积）</p>
+<p>​     管理员（<u>编号</u>，姓名，书库号）</p>
 <blockquote>
 <p>​	查询从来没有人借阅过的图书信息，列出书号，书名，作者。</p>
 <p>查询从来没有人借阅过的图书信息，列出书号，书名，作者，结果按书号升序排列。</p>
@@ -3810,13 +3845,23 @@ order by 1;<span aria-hidden="true" class="line-numbers-rows"><span></span><span
 
 
 
+
+
 <blockquote>
 <p>查询被借阅次数最多的图书信息，列出书号、书名、作者<br>查询被借阅次数最多的图书信息，列出书号、书名、作者</p>
 <p>表结构如下：</p>
 <p>card(借书卡) 表：cno 卡号，name 姓名，class 班级</p>
 </blockquote>
 <p><img src="https://cdn.jsdelivr.net/gh/undersunn/PicX@master/image.58ebcpr35zo0.webp"></p>
-<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql"><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<pre class="line-numbers language-sql" data-language="sql"><code class="language-sql">select book.bno,bname,author from book,borrow
+where book.bno=borrow.bno
+group by book.bno
+having sum(borrow.bno)=(select sum(borrow.bno) from order_detail,product
+                                  where borrow.bno=book.bno
+                                  group by book.bno
+                                  order by sum(borrow.bno) desc
+                                  limit 1);
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 
 
 
@@ -4697,7 +4742,7 @@ where employee_id=33;<span aria-hidden="true" class="line-numbers-rows"><span></
             <br>
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                        class="white-color">39.6k</span>
+                        class="white-color">39.8k</span>
             
             
             
