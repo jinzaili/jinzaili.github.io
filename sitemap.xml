@@ -201,6 +201,13 @@
   </url>
   
   <url>
+    <loc>https://jinzaili.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2022-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jinzaili.github.io/tags/hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -216,13 +223,6 @@
   
   <url>
     <loc>https://jinzaili.github.io/tags/%E5%8D%9A%E5%AE%A2%E7%BD%AE%E9%A1%B6/</loc>
-    <lastmod>2022-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -278,6 +278,13 @@
   </url>
   
   <url>
+    <loc>https://jinzaili.github.io/tags/MySQL/</loc>
+    <lastmod>2022-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jinzaili.github.io/tags/%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -293,13 +300,6 @@
   
   <url>
     <loc>https://jinzaili.github.io/tags/%E9%AB%98%E6%95%B0%E5%8F%943%E5%B0%8F%E6%97%B6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%80%9F%E6%88%90/</loc>
-    <lastmod>2022-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/tags/MySQL/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -322,14 +322,14 @@
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>https://jinzaili.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://jinzaili.github.io/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://jinzaili.github.io/categories/hexo%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -364,6 +364,13 @@
   </url>
   
   <url>
+    <loc>https://jinzaili.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/</loc>
+    <lastmod>2022-06-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://jinzaili.github.io/categories/%E7%BD%91%E7%BB%9C%E5%AE%89%E5%85%A8/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -372,13 +379,6 @@
   
   <url>
     <loc>https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/</loc>
-    <lastmod>2022-06-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://jinzaili.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/</loc>
     <lastmod>2022-06-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
