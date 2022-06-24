@@ -6,7 +6,7 @@
   <link href="https://jinzaili.github.io/atom.xml" rel="self"/>
   
   <link href="https://jinzaili.github.io/"/>
-  <updated>2022-06-18T16:36:39.145Z</updated>
+  <updated>2022-06-09T07:20:54.193Z</updated>
   <id>https://jinzaili.github.io/</id>
   
   <author>
@@ -15,35 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>数据库原理及应用</title>
-    <link href="https://jinzaili.github.io/2022/06/09/shu-ju-ku-yuan-li-ji-ying-yong/"/>
-    <id>https://jinzaili.github.io/2022/06/09/shu-ju-ku-yuan-li-ji-ying-yong/</id>
-    <published>2022-06-09T15:26:35.000Z</published>
-    <updated>2022-06-18T16:36:39.145Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;选择题汇总&quot;&gt;&lt;a href=&quot;#选择题汇总&quot; class=&quot;headerlink&quot; title=&quot;选择题汇总&quot;&gt;&lt;/a&gt;&lt;strong&gt;选择题汇总&lt;/strong&gt;&lt;/h2&gt;&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;1.&lt;/th&gt;
-&lt;th</summary>
-        
-      
-    
-    
-    
-    <category term="数据库原理及应用" scheme="https://jinzaili.github.io/categories/%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8/"/>
-    
-    
-    <category term="MySQL" scheme="https://jinzaili.github.io/tags/MySQL/"/>
-    
-  </entry>
   
   <entry>
     <title>宝藏网站</title>
@@ -67,31 +38,6 @@
     
     
     <category term="宝藏网站" scheme="https://jinzaili.github.io/tags/%E5%AE%9D%E8%97%8F%E7%BD%91%E7%AB%99/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计算机组成原理速成</title>
-    <link href="https://jinzaili.github.io/2022/05/16/ji-suan-ji-zu-cheng-yuan-li-su-cheng/"/>
-    <id>https://jinzaili.github.io/2022/05/16/ji-suan-ji-zu-cheng-yuan-li-su-cheng/</id>
-    <published>2022-05-16T12:50:17.000Z</published>
-    <updated>2022-06-09T07:16:18.401Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;课时1-概论&quot;&gt;&lt;a href=&quot;#课时1-概论&quot; class=&quot;headerlink&quot; title=&quot;课时1 概论&quot;&gt;&lt;/a&gt;课时1 概论&lt;/h2&gt;&lt;h3 id=&quot;1、什么是计算机组成&quot;&gt;&lt;a href=&quot;#1、什么是计算机组成&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="计算机组成原理" scheme="https://jinzaili.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/"/>
-    
-    
-    <category term="高数叔3小时计算机组成原理速成" scheme="https://jinzaili.github.io/tags/%E9%AB%98%E6%95%B0%E5%8F%943%E5%B0%8F%E6%97%B6%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86%E9%80%9F%E6%88%90/"/>
     
   </entry>
   
@@ -282,7 +228,7 @@
     <link href="https://jinzaili.github.io/2022/05/01/accounts/"/>
     <id>https://jinzaili.github.io/2022/05/01/accounts/</id>
     <published>2022-05-01T15:43:10.000Z</published>
-    <updated>2022-06-09T04:52:59.102Z</updated>
+    <updated>2022-06-23T06:18:56.063Z</updated>
     
     
     <summary type="html">有东西被加密了, 请输入密码查看.</summary>
